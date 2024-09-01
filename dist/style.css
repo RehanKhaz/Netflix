@@ -871,9 +871,9 @@ video {
   padding: 1rem;
 }
 
-.px-\[\.2rem\] {
-  padding-left: .2rem;
-  padding-right: .2rem;
+.px-\[\.52rem\] {
+  padding-left: .52rem;
+  padding-right: .52rem;
 }
 
 .px-\[\.6rem\] {
@@ -926,16 +926,6 @@ video {
   padding-bottom: 6rem;
 }
 
-.px-\[52rem\] {
-  padding-left: 52rem;
-  padding-right: 52rem;
-}
-
-.px-\[\.52rem\] {
-  padding-left: .52rem;
-  padding-right: .52rem;
-}
-
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -978,11 +968,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-\[\.97rem\] {
   font-size: .97rem;
 }
@@ -995,8 +980,8 @@ video {
   font-size: 1.2rem;
 }
 
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
 }
 
 .text-\[1rem\] {
@@ -1015,19 +1000,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[1\.4rem\] {
-  font-size: 1.4rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-\[1\.3rem\] {
-  font-size: 1.3rem;
 }
 
 .font-bold {
@@ -1107,6 +1079,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
   .sm\:text-\[2\.5rem\] {
     font-size: 2.5rem;
   }
@@ -1114,15 +1090,6 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
@@ -1219,6 +1186,11 @@ video {
     line-height: 2.25rem;
   }
 
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .md\:text-\[1\.2rem\] {
     font-size: 1.2rem;
   }
@@ -1230,11 +1202,6 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
