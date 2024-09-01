@@ -858,6 +858,14 @@ video {
   background-image: url('/Netflix_Main_Image.jpg');
 }
 
+.bg-\[url\(\'dist\/Netflix_Main_Image\.jpg\'\)\] {
+  background-image: url('dist/Netflix_Main_Image.jpg');
+}
+
+.bg-\[url\(\'\/dist\/Netflix_Main_Image\.jpg\'\)\] {
+  background-image: url('/dist/Netflix_Main_Image.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
