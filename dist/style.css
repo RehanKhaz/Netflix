@@ -850,8 +850,12 @@ video {
   background-color: transparent;
 }
 
-.bg-\[url\(\'\/dist\/Netflix_Main_Image\.jpg\'\)\] {
-  background-image: url('/dist/Netflix_Main_Image.jpg');
+.bg-\[url\(\'Netflix_Main_Image\.jpg\'\)\] {
+  background-image: url('Netflix_Main_Image.jpg');
+}
+
+.bg-\[url\(\'\/Netflix_Main_Image\.jpg\'\)\] {
+  background-image: url('/Netflix_Main_Image.jpg');
 }
 
 .bg-cover {
